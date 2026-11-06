@@ -1,0 +1,8 @@
+package com.product_service.repository;
+
+import com.product_service.entity.Size;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SizeCategory extends JpaRepository<Size, Integer> {
+}
